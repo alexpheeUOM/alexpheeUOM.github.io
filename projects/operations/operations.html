@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="opstyle.css">
+  <title>OPERATIONS</title>
+  
+  <script>
+	function oper(){
+	a1=document.getElementById("n1").value;
+	a2=document.getElementById("n2").value;
+	
+	a11= +a1+ +a2;
+	a22=a1-a2;
+	a33=a1*a2;
+	if(a2!=0){a44=a1/a2;}
+	else{a44="0";}
+	a55=Math.pow(a1,2);
+	a66=Math.pow(a2,2);
+	a77=Math.sqrt(a1);
+	a88=Math.sqrt(a2);
+		
+		var fac1=1;
+		for (i=1;i<=a1;i++) {
+		fac1= fac1*i;}
+		var fac2=1;
+		for (i=1;i<=a2;i++) {
+		fac2= fac2*i;}
+		
+	var letters=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+		
+	document.getElementById("r1").innerHTML =a1+" + "+a2+": </br>"+ "<p>"+a11;
+	document.getElementById("r2").innerHTML =a1+" - "+a2+": </br>"+"<p>"+a22;
+	document.getElementById("r3").innerHTML =a1+" * "+a2+": </br>"+ "<p>"+a33;
+	if(a2=="0"){
+	document.getElementById("r4").innerHTML =a1+" / "+a2+": </br>"+"Division with 0";}
+	else{
+	document.getElementById("r4").innerHTML =a1+" / "+a2+": </br>"+"<p>"+a44.toFixed(2);}
+	document.getElementById("r5").innerHTML =a1+"<sup>2</sup>: </br>"+"<p>"+a55.toFixed(2);
+	document.getElementById("r6").innerHTML =a2+"<sup>2</sup>:</br>"+"<p>"+a66.toFixed(2);
+	document.getElementById("r7").innerHTML ="&#8730; "+a1+":</br>"+"<p>"+a77.toFixed(2);
+	document.getElementById("r8").innerHTML ="&#8730; "+a2+":</br>"+"<p>"+a88.toFixed(2);
+	document.getElementById("r9").innerHTML ="English alphabet equivalent of "+a1+" :</br>"+"<p>"+letters[a1-1];
+	document.getElementById("r10").innerHTML ="English alphabet equivalent of "+a2+" :</br>"+"<p>"+letters[a2-1];
+	document.getElementById("r15").innerHTML ="Sin("+a1+"):</br>"+"<p>"+Math.sin(a1).toFixed(2);
+	document.getElementById("r16").innerHTML ="Cos("+a1+"):</br>"+"<p>"+Math.cos(a1).toFixed(2);
+	document.getElementById("r17").innerHTML ="Sin("+a2+"):</br>"+"<p>"+Math.sin(a2).toFixed(2);
+	document.getElementById("r18").innerHTML ="Cos("+a2+"):</br>"+"<p>"+Math.cos(a2).toFixed(2);
+	document.getElementById("r11").innerHTML =a1+"<sup>"+a2+"</sup>: </br>"+"<p>"+Math.pow(a1,a2).toFixed(2);
+	document.getElementById("r12").innerHTML =a2+"<sup>"+a1+"</sup>: </br>"+"<p>"+Math.pow(a2,a1).toFixed(2);
+	document.getElementById("r13").innerHTML =a1+" ! :</br>"+"<p>"+fac1;
+	document.getElementById("r14").innerHTML =a2+" ! :</br>"+"<p>"+fac2;
+	
+}</script>
+</head>
+
+<body>
+<div id="border">
+<h3> Calculator</h3>
+	<div id="form">
+		<label>Insert first number:   (x)</label>
+		<input type="text" id="n1">
+		<label>Insert second number:   (y)</label>
+		<input type="text" id="n2">
+		<input type="button" onclick="oper();factorial();" value="Submit"> 
+	</div>
+<img src="tenor.gif" style="width:170px;padding-top:17px;">
+		<div id="r1">Addition:</div>
+		<div id="r2">Subtraction:</div>
+		<div id="r3">Multiplication:</div>
+		<div id="r4">Division:</div>
+		<div id="r5">Second power of x</div>
+		<div id="r6">Second power of y</div>
+		<div id="r7">Square root of x</div>
+		<div id="r8">Square root of y</div>
+		<div id="r11">x <sup>y</sup></div>
+		<div id="r12">y <sup>x</sup></div>
+		<div id="r13">x !</div>
+		<div id="r14">y !</div>
+		<div id="r15">sin(x)</div>
+		<div id="r16">cos(x)</div>
+		<div id="r17">sin(y)</div>
+		<div id="r18">cos(y)</div>
+		<span id="r9">English alphabet equivalent of x</span>
+		<span id="r10">English alphabet equivalent of y</span>
+		<i id="sign">created by alex filippas 2020 &copy;</i>
+</div>
+
+</body>
+
+ </html>

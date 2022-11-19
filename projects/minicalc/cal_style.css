@@ -1,0 +1,66 @@
+body{background-image: url("desktop.jpg");margin:100px;}
+h3{color:white;font-family:monospace;text-align:center;}
+#result{text-align:right;}
+input[type=text] {
+	padding-left: 2px;
+	margin: 2px;
+	width:255px;}
+input[type=button]{
+	cursor:pointer;
+	border-radius:20%;
+	margin:5px;
+	padding:4px 3px;
+	border:1px solid black;
+	width: 50px;
+	height:50px;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	box-shadow:2px 2px 5px;
+	font-family:monospace;}
+#border{
+	width:263px;
+	height:320px;
+	background-color:indigo;
+	border:2px solid darkslategray;
+	box-shadow:5px 5px 8px darkslategray;
+	border-radius:8%}
+/*div{
+	border-radius:20%;
+	margin:3px;
+	padding:5px 3px;
+	border:1px solid black;
+	width: 50px;
+	height:50px;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	box-shadow:2px 2px 5px;
+	font-family:monospace;}*/
+#f{
+	width:260px;
+	height:auto;
+	background-color:lightgrey;
+	text-align:left;}
+#r1{clear:both;background-color:silver;}
+#r2{background-color:silver;}
+#r3{background-color:silver;margin-right:20px;}
+#rsum{background-color:silver;}
+#r4{clear:both;background-color:silver;}
+#r5{background-color:silver;}
+#r6{background-color:silver;margin-right:20px;}
+#rdif{background-color:silver;}
+#r7{clear:both;background-color:silver;}
+#r8{background-color:silver;}
+#r9{background-color:silver;margin-right:20px;}
+#rmul{background-color:silver;}
+#rc{clear:both;background-color:silver;}
+#r0{background-color:silver;}
+#rres{background-color:silver;margin-right:20px;}
+#rdiv{background-color:silver;}
+div p {
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;}

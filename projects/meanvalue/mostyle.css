@@ -1,0 +1,22 @@
+body{margin:50px;background-color:black;}
+h2{font-family:monospace;margin-left:30px;color:white;}
+button{font-size:150%;}
+#border{clear:both;float:left;
+	width:400px;
+	height:250px;
+	background-image: url("bg.jpg");
+	border:2px solid dimgray;
+	box-shadow:2px 2px 150px green;
+	border-radius:15%;}
+#input{color:white;text-align:center;margin-left:15px;}
+#grade{font-size:80%;text-align:center;width:100px;}
+#submit{margin-top:5px;margin-left:27px;}
+#mesos{color:white;text-align:center;margin-left:15px;}
+#mean{font-size:80%;text-align:center;width:100px;}
+#upleft{font-size:150%;margin-top:15px;float:left;}
+#upright{font-size:150%;margin-right:28px;margin-top:15px;float:right;}
+#botleft{margin-left:25px;clear:both;float:left;margin-top:20px;}
+#botright{font-size:150%;margin-right:40px;margin-top:5px;float:right;}
+#counter{color:white;text-align:center;margin-left:15px;}
+#count{font-size:80%;text-align:center;width:100px;}
+#error{font-size:150%;text-align:center;padding-top:40px;clear:both;color:firebrick;font-weight:bold;}

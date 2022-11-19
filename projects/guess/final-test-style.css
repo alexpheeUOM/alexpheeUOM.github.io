@@ -1,0 +1,23 @@
+:root {font-family: Arial;}
+  /*  --btn-color: teal;    χρώμα πλήκτρων */
+  /*  --btn-text: whitesmoke;    χρώμα κειμένου πλήκτρων */
+   /* --msg-win-color: rgb(0, 128, 32);   χρώμα μηνύματος επιτυχίας */
+   /* --msg-wrong-color: crimson;   χρώμα μηνύματος αποτυχίας */
+    /* --msg-text:floralwhite;  χρώμα κειμένου μηνύματος */
+	/*--low-high-color: gray;   χρώμα ιστορικού προσπαθειών */
+body{width:700px;}
+heading{font-size:120%;font-weight:bold;}
+#instructions{margin:15px;}
+#restart{display:none;}
+/* 
+
+8. Στο αρχείο stylesheet final-test-style.css να γίνουν οι κατάλληλες αλλαγές 
+που αφορούν στα στοιχεία που εμφανίζονται στον χρήστη, προσπαθώντας να επιτύχετε 
+το αποτέλεσμα που φαίνεται στην παρουσίαση. ιδιαίτερη αναφορά γίνεται ώστε το χρώμα 
+να οριστεί με βάση τα χρώματα που ορίζονται από τις μεταβλητές CSS. */
+::placeholder {color: blue;}
+#guess{margin-left:15px;}
+#message{text-align:center;font-size:120%;margin:10px;}
+#low-high{color:gray;font-size:85%;margin-left:10px;}
+#check{font-size:110%;background-color:teal;color:whitesmoke;border-radius:10%;}
+#restart{font-size:110%;background-color:teal;color:whitesmoke;border-radius:10%;margin:10px;}

@@ -1,0 +1,7 @@
+body{background-color:teal;font-size:120%;font-family:courier;}
+h3{padding-left:30;}
+#add-button{
+	background-color:darkslategray;
+	color:white;
+}
+button{margin-left:30px;color:white;background-color:red;}
